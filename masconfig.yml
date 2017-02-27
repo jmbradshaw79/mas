@@ -1,0 +1,16 @@
+Listenport: 8880
+LDAPServer: 192.168.124.106.xip.io
+LDAPPort: 389
+LDAPSearchBase: ou=People,dc=jbvault,dc=io
+LDAPSearchFilter: (uid=%s)
+LDAPBindUsername: cn=Directory Manager
+LDAPBindPassword: changit
+UsernameHeader: REMOTE_USER
+PasswordHeader: PASSWORD
+RoleNameHeader: ROLE_NAME
+VerifyPassword: true
+RoleAttributeName: businessCategory
+UsernameAttribute: uid
+UseTLS: false
+TLSCert: cert.pem
+TLSKey: key.pem

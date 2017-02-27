@@ -212,6 +212,8 @@ func configViper() {
 	viper.SetDefault("LDAPBindUsername", "cn=Directory Manager")
 	viper.SetDefault("LDAPBindPassword", "changeit")
 	viper.SetDefault("UseTLS", false)
+	viper.SetDefault("TLSCert", "cert.pem")
+	viper.SetDefault("TLSKey", "key.pem")
 
 	err := viper.ReadInConfig() // Find and read the config file
 	if err != nil {             // Handle errors reading the config file

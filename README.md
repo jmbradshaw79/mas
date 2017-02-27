@@ -14,7 +14,9 @@ There are currently three available request types, which require header values t
 The configuration file is yaml syntax. See the example file masconfig.yaml
 There are hard coded defaults, some of which will render the application non-functional.
 
-#Todo:
+Detailed information located at <a href="masconfig.md">masconfig.md</a>
+
+##Todo:
 
 Soon on the list is to add customizable connection pooling.   
 

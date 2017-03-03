@@ -19,7 +19,7 @@ type User struct {
 	Roles    []string
 }
 
-////Config Struct definition for configuration file marshalling
+//Config Struct definition for configuration file marshalling
 type Config struct {
 	Listenport        string
 	LDAPServer        string
